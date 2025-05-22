@@ -11,6 +11,7 @@ Actualización significativa con enfoque en la integración de una API RESTful p
 ✨ Funcionalidades Nuevas
 Conexión a API Externa:
 Consumo de una API pública para mostrar productos con título, precio e imagen.
+APi utilizada https://github.com/keikaavousi/fake-store-api (fakeStoreAPI)
 
 Decodificación JSON:
 Interpretación de respuestas en formato JSON y conversión a estructuras de datos utilizables por la app.
@@ -51,8 +52,3 @@ Integración de Sensores:
 Sensor de Orientación: Detecta la posición del dispositivo para ajustar el comportamiento de la app.
 
 Lector de Código de Barras: Escanea códigos para obtener información del producto.
-
-# ✅ Requisitos del Primer Corte Cumplidos
-Operaciones Locales: Todas las funcionalidades se ejecutan en el dispositivo sin conexión a la nube.
-
-Gestión de Usuarios y Sensores: Implementación completa de funcionalidades requeridas.
