@@ -1,36 +1,57 @@
-# computadoresApp
+💻 ComputadoresApp
+Aplicación Móvil para Gestión y Consulta de Productos
+📱 Proyecto universitario desarrollado en Kodular
 
-ComputadoresApp: Gestión y Consulta de Productos (Proyecto Universitario)
-Este repositorio contiene el proyecto de aplicación móvil ComputadoresApp, desarrollado en Kodular. La aplicación está diseñada para demostrar diversas funcionalidades clave en el desarrollo de aplicaciones móviles, cumpliendo con los requisitos de las entregas de los diferentes cortes del curso.
+📚 Descripción General
+ComputadoresApp es una aplicación móvil desarrollada como parte de un proyecto académico, enfocada en la gestión de usuarios y la consulta dinámica de productos. Está construida utilizando Kodular, una plataforma de desarrollo visual basada en App Inventor, y ha sido diseñada para cumplir con los requisitos de evaluación de diferentes cortes del curso.
 
-🚀 Versión 2.0: Integración de API Externa para Consulta de Productos (#Segundo Corte)
-Esta es una actualización significativa sobre la versión inicial, enfocada en la integración y consumo de datos de una API externa para la gestión y consulta de un catálogo de productos.
+🚀 Versión 2.0 — Integración de API Externa (Segundo Corte)
+Actualización significativa con enfoque en la integración de una API RESTful para mostrar productos electrónicos en tiempo real.
 
-✨ Nuevas Funcionalidades en esta Versión:
-Conexión a API Externa: La aplicación ahora se conecta a una API RESTful para obtener dinámicamente un listado de productos (título, precio, imagen, etc.).
-Decodificación JSON: Implementación de la lógica para decodificar las respuestas en formato JSON recibidas de la API, transformándolas en estructuras de datos manejables por la aplicación.
-Visualización Dinámica de Productos: Los datos de los productos se muestran en la interfaz de usuario (títulos, precios, imágenes) de forma dinámica, reflejando la información obtenida de la API.
-Navegación de Productos: Incorporación de botones de "Siguiente" (y opcionalmente "Anterior") para permitir al usuario explorar el catálogo de productos cargados desde la API.
-Manejo Robusto de Datos: Se han implementado validaciones para asegurar que la aplicación maneje correctamente los estados de la lista de productos (vacía, fuera de límites) y los errores comunes de conexión a la API.
+✨ Funcionalidades Nuevas
+Conexión a API Externa:
+Consumo de una API pública para mostrar productos con título, precio e imagen.
 
-🛠️ Tecnologías Utilizadas:
-Kodular (Basado en App Inventor): Plataforma de desarrollo de aplicaciones móviles sin código.
-API RESTful: Para la obtención de datos de productos.
-JSON: Formato de intercambio de datos.
-TinyDB: Base de datos local para persistencia de datos.
-Componentes de Sensores de Kodular: Orientación y Lector de Código de Barras.
+Decodificación JSON:
+Interpretación de respuestas en formato JSON y conversión a estructuras de datos utilizables por la app.
 
-📦 Versión 1.0: Gestión Local de Usuarios y Sensores (Primer Corte)
-Esta fue la primera versión del proyecto, centrada en la implementación de funcionalidades locales y la integración de sensores.
+Visualización Dinámica de Productos:
+Renderizado en la interfaz con datos obtenidos en tiempo real (título, imagen y precio).
 
-📝 Funcionalidades Implementadas:
-Sistema de Login Local: La aplicación cuenta con un módulo de autenticación de usuarios.
-Validación de Credenciales: Verificación de usuarios y contraseñas.
-Persistencia de Datos (TinyDB): Las credenciales de los usuarios se almacenan y se recuperan localmente utilizando la base de datos TinyDB de Kodular, lo que permite que los datos persistan incluso después de cerrar la aplicación.
-Integración de Sensores: Se han incorporado dos sensores clave:
-Sensor de Orientación: Utilizado para [Explicar brevemente el uso, ej: "detectar cambios en la orientación del dispositivo y reaccionar a ellos"].
-Sensor de Código de Barras: Permite [Explicar brevemente el uso, ej: "escanear códigos de barras y procesar la información obtenida"].
-✅ Requisitos del Primer Corte Cumplidos:
-Operaciones Locales: Todas las funcionalidades de gestión de usuarios y sensores se ejecutan de forma local en el dispositivo, sin dependencia de servicios en la nube.
-Integración de Sensores: Se han implementado satisfactoriamente los dos sensores requeridos.
-Funcionalidad Completa: La aplicación demuestra una gestión básica de datos persistentes y la interacción con hardware del dispositivo a través de los sensores.
+Navegación entre Productos:
+Botón de "Siguiente" (y opcionalmente "Anterior") para navegar entre elementos del catálogo.
+
+Manejo Robusto de Datos:
+Validación de listas vacías, control de errores de conexión y manejo de índices fuera de rango.
+
+🛠️ Tecnologías Utilizadas
+Kodular (basado en App Inventor)
+
+API RESTful para el consumo de datos
+
+Formato JSON para intercambio de información
+
+TinyDB para almacenamiento local persistente
+
+Sensores de Kodular: Sensor de orientación y lector de código de barras
+
+📦 Versión 1.0 — Gestión Local y Sensores (Primer Corte)
+Versión inicial enfocada en funcionalidades locales de autenticación y hardware del dispositivo.
+
+📝 Funcionalidades Implementadas
+Sistema de Login Local:
+Módulo de autenticación con verificación de credenciales.
+
+Persistencia con TinyDB:
+Almacenamiento y recuperación de datos de usuario localmente, incluso tras cerrar la app.
+
+Integración de Sensores:
+
+Sensor de Orientación: Detecta la posición del dispositivo para ajustar el comportamiento de la app.
+
+Lector de Código de Barras: Escanea códigos para obtener información del producto.
+
+✅ Requisitos del Primer Corte Cumplidos
+Operaciones Locales: Todas las funcionalidades se ejecutan en el dispositivo sin conexión a la nube.
+
+Gestión de Usuarios y Sensores: Implementación completa de funcionalidades requeridas.
