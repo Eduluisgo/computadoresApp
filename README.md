@@ -1,7 +1,7 @@
-#💻 ComputadoresApp
+# 💻 ComputadoresApp
 Aplicación Móvil para Gestión y Consulta de Productos
 
-#📱 Proyecto universitario desarrollado en Kodular
+# 📱 Proyecto universitario desarrollado en Kodular
 
 #📚 Descripción General
 ComputadoresApp es una aplicación móvil desarrollada como parte de un proyecto académico, enfocada en la gestión de usuarios y la consulta dinámica de productos. Está construida utilizando Kodular, una plataforma de desarrollo visual basada en App Inventor, y ha sido diseñada para cumplir con los requisitos de evaluación de diferentes cortes del curso.
