@@ -37,6 +37,8 @@ TinyDB para almacenamiento local persistente
 
 Sensores de Kodular: Sensor de orientación y lector de código de barras
 
+# Puedes probar la app descargandola desde este link: https://drive.google.com/file/d/1Au8Q9xrWNjsQv4RLS7qElPfD6iECjMB5/view?usp=sharing
+
 # 📦 Versión 1.0 — Gestión Local y Sensores (Primer Corte)
 Versión inicial enfocada en funcionalidades locales de autenticación y hardware del dispositivo.
 
